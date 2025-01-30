@@ -1,16 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Toaster } from "react-hot-toast";
+import { Outlet, useNavigation } from "react-router-dom";
+import Footer from "./Components/Footer.jsx";
+import NavBar from "./Components/NavBar.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const navigation = useNavigation();
   return (
-    <>
-      <h2>Project Set Up</h2>
-    </>
-  )
+    <div className="font-Sora">
+      <NavBar></NavBar>
+      {navigation.state === "loading" ? (
+        <div className="flex justify-center items-center min-h-[80vh]">
+          <span className="loading loading-dots loading-lg"></span>
+        </div>
+      ) : (
+        <div className="bg-gradient-to-b from-white to-gray-50">
+          <Outlet></Outlet>
+        </div>
+      )}
+
+      <Footer></Footer>
+      <Toaster />
+    </div>
+  );
 }
 
-export default App
+export default App;
