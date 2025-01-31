@@ -51,7 +51,7 @@ Welcome to **GadgetHeaven**, your one-stop destination for the latest and most i
    ```sh
    npm start
    ```
-5. Open the live application in your browser at: [Live Site](https://ab-gadget-heaven.netlify.app/)
+5. Open the live application in your browser at: [Live Site](https://srk-gadget-heaven.netlify.app/)
 
 ## 🎨 Application Structure
 ### 🏠 Home Page
