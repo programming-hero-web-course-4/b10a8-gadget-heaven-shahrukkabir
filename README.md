@@ -3,7 +3,7 @@
 Welcome to **GadgetHeaven**, your one-stop destination for the latest and most innovative gadgets! This responsive e-commerce platform allows users to explore, purchase, and wishlist a variety of gadgets with a seamless and engaging shopping experience. The site is designed with a structured navigation system, categorized product listings, and persistent user data management for a smooth shopping journey.
 
 ## 🌐 Live Website
-**Live Site:** [GadgetHeaven on Surge](https://srk-gadget-heaven.netlify.app/)
+**Live Site:** [GadgetHeaven](https://srk-gadget-heaven.netlify.app/)
 
 ## 📑 Project Overview
 **GadgetHeaven** follows a **modern UI/UX** based on a detailed **Figma design**, ensuring a structured and visually appealing experience for users. The application includes a robust navigation system, product filtering, and shopping functionalities such as a wishlist and cart with data persistence.
